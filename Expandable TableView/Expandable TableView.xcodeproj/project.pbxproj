@@ -7,23 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		86A0DF3A199190C96FD30A65 /* Pods_Expandable_TableView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6354D2158BAAE10E28E931CE /* Pods_Expandable_TableView.framework */; };
+		9CC1ABDA27965BF200336BFE /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CC1ABD927965BF200336BFE /* TableViewCell.swift */; };
 		9CF91FF42795979D0085A49D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CF91FF32795979D0085A49D /* AppDelegate.swift */; };
 		9CF91FF62795979D0085A49D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CF91FF52795979D0085A49D /* SceneDelegate.swift */; };
 		9CF91FF82795979D0085A49D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CF91FF72795979D0085A49D /* ViewController.swift */; };
-		9CF91FFB2795979D0085A49D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9CF91FF92795979D0085A49D /* Main.storyboard */; };
 		9CF91FFD2795979E0085A49D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9CF91FFC2795979E0085A49D /* Assets.xcassets */; };
 		9CF920002795979E0085A49D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9CF91FFE2795979E0085A49D /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6354D2158BAAE10E28E931CE /* Pods_Expandable_TableView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Expandable_TableView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7BA765D6665C90B11C03AA07 /* Pods-Expandable TableView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Expandable TableView.debug.xcconfig"; path = "Target Support Files/Pods-Expandable TableView/Pods-Expandable TableView.debug.xcconfig"; sourceTree = "<group>"; };
+		9CC1ABD927965BF200336BFE /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
 		9CF91FF02795979D0085A49D /* Expandable TableView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Expandable TableView.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9CF91FF32795979D0085A49D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9CF91FF52795979D0085A49D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		9CF91FF72795979D0085A49D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		9CF91FFA2795979D0085A49D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9CF91FFC2795979E0085A49D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9CF91FFF2795979E0085A49D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9CF920012795979E0085A49D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B10E739C3503A6AB3A675C1C /* Pods-Expandable TableView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Expandable TableView.release.xcconfig"; path = "Target Support Files/Pods-Expandable TableView/Pods-Expandable TableView.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +35,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				86A0DF3A199190C96FD30A65 /* Pods_Expandable_TableView.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		76BC0795483ACD179F6F7143 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6354D2158BAAE10E28E931CE /* Pods_Expandable_TableView.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		9CF91FE72795979D0085A49D = {
 			isa = PBXGroup;
 			children = (
 				9CF91FF22795979D0085A49D /* Expandable TableView */,
 				9CF91FF12795979D0085A49D /* Products */,
+				ADB514C9D32E84E20C40ED85 /* Pods */,
+				76BC0795483ACD179F6F7143 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -59,12 +74,21 @@
 				9CF91FF32795979D0085A49D /* AppDelegate.swift */,
 				9CF91FF52795979D0085A49D /* SceneDelegate.swift */,
 				9CF91FF72795979D0085A49D /* ViewController.swift */,
-				9CF91FF92795979D0085A49D /* Main.storyboard */,
 				9CF91FFC2795979E0085A49D /* Assets.xcassets */,
 				9CF91FFE2795979E0085A49D /* LaunchScreen.storyboard */,
 				9CF920012795979E0085A49D /* Info.plist */,
+				9CC1ABD927965BF200336BFE /* TableViewCell.swift */,
 			);
 			path = "Expandable TableView";
+			sourceTree = "<group>";
+		};
+		ADB514C9D32E84E20C40ED85 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7BA765D6665C90B11C03AA07 /* Pods-Expandable TableView.debug.xcconfig */,
+				B10E739C3503A6AB3A675C1C /* Pods-Expandable TableView.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +98,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9CF920042795979E0085A49D /* Build configuration list for PBXNativeTarget "Expandable TableView" */;
 			buildPhases = (
+				CEF4167DDAB2A755E604EB91 /* [CP] Check Pods Manifest.lock */,
 				9CF91FEC2795979D0085A49D /* Sources */,
 				9CF91FED2795979D0085A49D /* Frameworks */,
 				9CF91FEE2795979D0085A49D /* Resources */,
+				1BCA6D5368767B17432957A9 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -127,11 +153,52 @@
 			files = (
 				9CF920002795979E0085A49D /* LaunchScreen.storyboard in Resources */,
 				9CF91FFD2795979E0085A49D /* Assets.xcassets in Resources */,
-				9CF91FFB2795979D0085A49D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1BCA6D5368767B17432957A9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Expandable TableView/Pods-Expandable TableView-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Expandable TableView/Pods-Expandable TableView-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Expandable TableView/Pods-Expandable TableView-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CEF4167DDAB2A755E604EB91 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Expandable TableView-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		9CF91FEC2795979D0085A49D /* Sources */ = {
@@ -139,6 +206,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9CF91FF82795979D0085A49D /* ViewController.swift in Sources */,
+				9CC1ABDA27965BF200336BFE /* TableViewCell.swift in Sources */,
 				9CF91FF42795979D0085A49D /* AppDelegate.swift in Sources */,
 				9CF91FF62795979D0085A49D /* SceneDelegate.swift in Sources */,
 			);
@@ -147,14 +215,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		9CF91FF92795979D0085A49D /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				9CF91FFA2795979D0085A49D /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		9CF91FFE2795979E0085A49D /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -284,6 +344,7 @@
 		};
 		9CF920052795979E0085A49D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7BA765D6665C90B11C03AA07 /* Pods-Expandable TableView.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -294,7 +355,6 @@
 				INFOPLIST_FILE = "Expandable TableView/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -312,6 +372,7 @@
 		};
 		9CF920062795979E0085A49D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B10E739C3503A6AB3A675C1C /* Pods-Expandable TableView.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -322,7 +383,6 @@
 				INFOPLIST_FILE = "Expandable TableView/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
