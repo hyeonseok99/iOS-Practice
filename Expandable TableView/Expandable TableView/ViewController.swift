@@ -54,6 +54,26 @@ class ViewController : UIViewController {
 // MARK: - UITableViewDelegate
 extension ViewController : UITableViewDelegate {
     
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        // 셀 선택 시 회색에서 다시 변하게 해주는 것
+        tableView.deselectRow(at: indexPath, animated: true)
+
+        // section 부분 선택하면 열리게 설정
+        if indexPath.row == 0 {
+            // section이 열려있다면 다시 닫힐 수 있게 해주는 코드
+            tableViewData[indexPath.section].opened = !tableViewData[indexPath.section].opened
+            
+            // 모든 데이터를 새로고침하는 것이 아닌 해당하는 섹션 부분만 새로고침
+            tableView.reloadSections([indexPath.section], with: .none)
+        
+        // sectionData 부분을 선택하면 아무 작동하지 않게 설정
+        } else {
+            print("이건 sectionData 선택한 거야")
+        }
+        
+        print([indexPath.section], [indexPath.row])
+    }
+    
 }
 
 
@@ -91,26 +111,6 @@ extension ViewController : UITableViewDataSource {
             return cell
         }
         
-    }
-    
-    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        // 셀 선택 시 회색에서 다시 변하게 해주는 것
-        tableView.deselectRow(at: indexPath, animated: true)
-
-        // section 부분 선택하면 열리게 설정
-        if indexPath.row == 0 {
-            // section이 열려있다면 다시 닫힐 수 있게 해주는 코드
-            tableViewData[indexPath.section].opened = !tableViewData[indexPath.section].opened
-            
-            // 모든 데이터를 새로고침하는 것이 아닌 해당하는 섹션 부분만 새로고침
-            tableView.reloadSections([indexPath.section], with: .none)
-        
-        // sectionData 부분을 선택하면 아무 작동하지 않게 설정
-        } else {
-            print("이건 sectionData 선택한 거야")
-        }
-        
-        print([indexPath.section], [indexPath.row])
     }
 }
 
