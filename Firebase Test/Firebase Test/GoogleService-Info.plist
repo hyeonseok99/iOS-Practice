@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>329734834386-vkapgl7f6qtggv8cc1n299om487jful6.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.329734834386-vkapgl7f6qtggv8cc1n299om487jful6</string>
+	<key>API_KEY</key>
+	<string>AIzaSyACHCr12BnEE9yi7H59ABdL2bVk18GWKPM</string>
+	<key>GCM_SENDER_ID</key>
+	<string>329734834386</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>hyeonseok.Project-GM</string>
+	<key>PROJECT_ID</key>
+	<string>project-gm-e4946</string>
+	<key>STORAGE_BUCKET</key>
+	<string>project-gm-e4946.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:329734834386:ios:7e5b28b0223419fdc2050b</string>
+	<key>DATABASE_URL</key>
+	<string>https://project-gm-e4946-default-rtdb.firebaseio.com</string>
+</dict>
+</plist>
